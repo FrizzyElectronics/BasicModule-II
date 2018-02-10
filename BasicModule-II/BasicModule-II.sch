@@ -1,58 +1,42 @@
 EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 LIBS:74xgxx
+LIBS:74xx
 LIBS:5050_ws2811
 LIBS:a4988-module
 LIBS:ac-dc
 LIBS:acs712
 LIBS:actel
 LIBS:adafruit
+LIBS:adc-dac
 LIBS:adxl345
 LIBS:allegro
 LIBS:Altera
 LIBS:AMS1117
 LIBS:analog_devices
+LIBS:analog_switches
 LIBS:ant
 LIBS:at24c64
+LIBS:atmel
+LIBS:audio
 LIBS:battery_management
 LIBS:bbd
 LIBS:bc56-12EWA
 LIBS:bosch
 LIBS:brooktre
+LIBS:cmos4000
 LIBS:cmos_ieee
+LIBS:conn
+LIBS:contrib
 LIBS:cp2103
 LIBS:CP2102
+LIBS:cypress
 LIBS:dc-dc
+LIBS:device
 LIBS:dht11
+LIBS:digital-audio
 LIBS:diode
+LIBS:display
+LIBS:dsp
 LIBS:elec-unifil
 LIBS:ESD_Protection
 LIBS:esp8266-module
@@ -69,6 +53,8 @@ LIBS:hc541
 LIBS:hc-05
 LIBS:HC164
 LIBS:hlk-rm04
+LIBS:intel
+LIBS:interface
 LIBS:ir
 LIBS:irf7907
 LIBS:isp_6p
@@ -77,6 +63,7 @@ LIBS:L9110
 LIBS:LargeKickstarter
 LIBS:Lattice
 LIBS:LilyPad-Wearables
+LIBS:linear
 LIBS:LM2575
 LIBS:logo
 LIBS:logo-azura-wrench
@@ -88,14 +75,18 @@ LIBS:mcp1640
 LIBS:mcp1640b
 LIBS:MCP3208
 LIBS:mechanical
+LIBS:memory
+LIBS:microchip
 LIBS:microchip_dspic33dsc
 LIBS:microchip_pic10mcu
 LIBS:microchip_pic12mcu
 LIBS:microchip_pic16mcu
 LIBS:microchip_pic18mcu
 LIBS:microchip_pic32mcu
+LIBS:microcontrollers
 LIBS:miniusb
 LIBS:motor_drivers
+LIBS:motorola
 LIBS:motors
 LIBS:mp2109dq
 LIBS:MP2307DN
@@ -106,21 +97,26 @@ LIBS:nrf24l01
 LIBS:nxp_armmcu
 LIBS:OF5032
 LIBS:onsemi
+LIBS:opto
 LIBS:Oscillators
+LIBS:philips
 LIBS:pl2303
 LIBS:pogopin
+LIBS:power
 LIBS:powerint
 LIBS:powerjack
 LIBS:Power_Management
 LIBS:pspice
 LIBS:pt4115
 LIBS:references
+LIBS:regul
 LIBS:relays
 LIBS:rfcom
 LIBS:RJ45-ENCODER
 LIBS:rtl8196
 LIBS:sensors
 LIBS:silabs
+LIBS:siliconi
 LIBS:smd oscillator
 LIBS:songle_relay
 LIBS:SparkFun-Aesthetics
@@ -154,15 +150,18 @@ LIBS:tcs3200d
 LIBS:tda5144
 LIBS:Teensy_3_and_LC_Series_Boards_v1.1
 LIBS:test
+LIBS:texas
 LIBS:texas-msp
 LIBS:tp4056
 LIBS:transf
+LIBS:transistors
 LIBS:ts812c
 LIBS:ttl_ieee
 LIBS:usb_a
 LIBS:usb-a-pcb
 LIBS:usb_ax2
 LIBS:User-Submitted
+LIBS:valves
 LIBS:video
 LIBS:wiznet
 LIBS:Worldsemi
@@ -171,6 +170,7 @@ LIBS:xc3s500evq100
 LIBS:xc6slx9-tqg144
 LIBS:XC9572-TQ100
 LIBS:Xicor
+LIBS:xilinx
 LIBS:xilinx_spartan3_virtex4_and_5
 LIBS:zetex
 LIBS:Zilog
@@ -328,12 +328,12 @@ $EndComp
 $Comp
 L GND #PWR07
 U 1 1 5918562D
-P 7150 4250
-F 0 "#PWR07" H 7150 4000 50  0001 C CNN
-F 1 "GND" H 7150 4100 50  0000 C CNN
-F 2 "" H 7150 4250 50  0001 C CNN
-F 3 "" H 7150 4250 50  0001 C CNN
-	1    7150 4250
+P 7150 4100
+F 0 "#PWR07" H 7150 3850 50  0001 C CNN
+F 1 "GND" H 7150 3950 50  0000 C CNN
+F 2 "" H 7150 4100 50  0001 C CNN
+F 3 "" H 7150 4100 50  0001 C CNN
+	1    7150 4100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -348,16 +348,12 @@ F 3 "" H 7100 3650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7150 4250 7150 3800
-Wire Wire Line
-	7150 3800 7200 3800
+	7000 3800 7200 3800
 Wire Wire Line
 	7200 3900 7100 3900
 Wire Wire Line
 	7100 3900 7100 3650
-Wire Wire Line
-	7200 4000 6950 4000
-Text GLabel 6950 4000 0    39   Input ~ 0
+Text GLabel 7000 3800 0    39   Input ~ 0
 SIGNAL
 $Comp
 L R_PHOTO R2
@@ -376,4 +372,8 @@ Connection ~ 5600 3650
 Wire Wire Line
 	5100 4000 5100 4050
 Connection ~ 5600 4050
+Wire Wire Line
+	7150 4100 7150 4000
+Wire Wire Line
+	7150 4000 7200 4000
 $EndSCHEMATC
