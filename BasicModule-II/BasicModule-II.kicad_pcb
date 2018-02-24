@@ -703,11 +703,11 @@
   )
 
   (module Grape:atom_small (layer B.Cu) (tedit 0) (tstamp 5A788F52)
-    (at 137.922 106.934)
-    (fp_text reference G*** (at 0 0) (layer B.SilkS) hide
+    (at 137.922 106.934 180)
+    (fp_text reference G*** (at 0 0 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3)) (justify mirror))
     )
-    (fp_text value LOGO (at 0.75 0) (layer B.SilkS) hide
+    (fp_text value LOGO (at 0.75 0 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3)) (justify mirror))
     )
     (fp_poly (pts (xy 0.036576 3.177312) (xy 0.066713 3.176523) (xy 0.090319 3.174814) (xy 0.110477 3.171845)
@@ -1151,7 +1151,7 @@
   (segment (start 144.272 103.886) (end 141.732 103.886) (width 0.4) (layer F.Cu) (net 1))
   (segment (start 141.732 103.886) (end 139.192 101.346) (width 0.4) (layer F.Cu) (net 1) (tstamp 5918769F))
   (segment (start 131.572 103.886) (end 132.207 103.886) (width 0.254) (layer F.Cu) (net 1))
-  (segment (start 135.9408 111.3536) (end 135.9408 107.5436) (width 0.254) (layer F.Cu) (net 2) (status 400000))
+  (segment (start 135.9408 111.3536) (end 135.9408 107.5436) (width 0.254) (layer F.Cu) (net 2))
   (segment (start 137.9474 105.537) (end 139.192 105.537) (width 0.254) (layer F.Cu) (net 2) (tstamp 5A7F0981))
   (segment (start 135.9408 107.5436) (end 137.9474 105.537) (width 0.254) (layer F.Cu) (net 2) (tstamp 5A7F097F))
   (segment (start 140.015 108.966) (end 140.015 106.36) (width 0.4) (layer F.Cu) (net 2))
@@ -1172,8 +1172,8 @@
   (segment (start 131.572 98.806) (end 134.112 98.806) (width 0.4) (layer F.Cu) (net 2))
   (segment (start 134.112 98.806) (end 136.652 101.346) (width 0.4) (layer F.Cu) (net 2) (tstamp 59187692))
   (segment (start 139.89 109.091) (end 140.015 108.966) (width 0.254) (layer F.Cu) (net 2) (tstamp 59186E8E))
-  (segment (start 137.9408 111.3536) (end 137.9408 109.1402) (width 0.254) (layer F.Cu) (net 3) (status C00000))
-  (segment (start 137.9408 109.1402) (end 138.115 108.966) (width 0.254) (layer F.Cu) (net 3) (tstamp 5A7F097C) (status C00000))
+  (segment (start 137.9408 111.3536) (end 137.9408 109.1402) (width 0.254) (layer F.Cu) (net 3))
+  (segment (start 137.9408 109.1402) (end 138.115 108.966) (width 0.254) (layer F.Cu) (net 3) (tstamp 5A7F097C))
   (segment (start 137.89 109.191) (end 138.115 108.966) (width 0.4) (layer F.Cu) (net 3) (tstamp 59187703))
   (segment (start 137.89 109.191) (end 138.115 108.966) (width 0.254) (layer F.Cu) (net 3) (tstamp 59186E8B))
 
