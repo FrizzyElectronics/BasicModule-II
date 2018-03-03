@@ -182,12 +182,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Title "BasicModuleII"
+Date "2018-03-03"
+Rev "v1"
+Comp "FrizzyElectronics"
+Comment1 "David Matias"
+Comment2 "Module for LDR, push button and endstop"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -197,7 +197,7 @@ U 1 1 5910C1C7
 P 6350 3850
 F 0 "SW2" H 6350 4020 50  0000 C CNN
 F 1 "Final_carrera" H 6350 3650 50  0000 C CNN
-F 2 "frizzy_switches:limit_sw_tiaihua" H 6350 3850 50  0001 C CNN
+F 2 "lib_fp:limit_sw_tiaihua" H 6350 3850 50  0001 C CNN
 F 3 "" H 6350 3850 50  0001 C CNN
 	1    6350 3850
 	0    1    1    0   
@@ -208,7 +208,7 @@ U 1 1 59182F02
 P 5800 3850
 F 0 "SW1" H 5850 3950 50  0000 L CNN
 F 1 "Pulsador" H 5800 3580 50  0000 C CNN
-F 2 "Buttons_Switches_THT:SW_PUSH-12mm" H 5800 4050 50  0001 C CNN
+F 2 "lib_fp:SW_PUSH-12mm" H 5800 4050 50  0001 C CNN
 F 3 "" H 5800 4050 50  0001 C CNN
 	1    5800 3850
 	0    1    1    0   
@@ -219,7 +219,7 @@ U 1 1 59184AE6
 P 5600 3350
 F 0 "R1" V 5680 3350 50  0000 C CNN
 F 1 "10k" V 5600 3350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 5530 3350 50  0001 C CNN
+F 2 "lib_fp:R_0805" V 5530 3350 50  0001 C CNN
 F 3 "" H 5600 3350 50  0001 C CNN
 	1    5600 3350
 	1    0    0    -1  
@@ -320,7 +320,7 @@ U 1 1 59185582
 P 7400 3900
 F 0 "P1" H 7400 4100 50  0000 C CNN
 F 1 "CONN_01X03" V 7500 3900 50  0000 C CNN
-F 2 "Connectors_JST:JST_PH_S3B-PH-K_03x2.00mm_Angled" H 7400 3900 50  0001 C CNN
+F 2 "lib_fp:JST_PH_S3B-PH-K_03x2.00mm_Angled" H 7400 3900 50  0001 C CNN
 F 3 "" H 7400 3900 50  0001 C CNN
 	1    7400 3900
 	1    0    0    -1  
@@ -361,7 +361,7 @@ U 1 1 59186F6E
 P 5100 3850
 F 0 "R2" H 5150 3900 50  0000 L CNN
 F 1 "R_PHOTO" H 5150 3850 50  0000 L TNN
-F 2 "LEDs:LED-5MM" V 5150 3600 50  0001 L CNN
+F 2 "lib_fp:LED-5MM" V 5150 3600 50  0001 L CNN
 F 3 "" H 5100 3800 50  0001 C CNN
 	1    5100 3850
 	1    0    0    -1  

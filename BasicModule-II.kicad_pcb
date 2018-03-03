@@ -295,6 +295,11 @@
       (net 3 5V))
     (pad 3 thru_hole oval (at 4 0) (size 1.2 1.7) (drill 0.7) (layers *.Cu *.Mask)
       (net 1 GND))
+    (model ${KIPRJMOD}/3d_modules/s3b-ph-kl.wrl
+      (at (xyz 0.07870000000000001 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 5910AB2D) (tstamp 5910450C)
