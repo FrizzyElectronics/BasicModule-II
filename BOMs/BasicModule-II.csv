@@ -1,0 +1,9 @@
+"Id";"Identificador";"Empaquetado";"Cantidad";"Identificación";"Suministrador y ref";
+1;"SW2";"limit_sw_tiaihua";1;"Final_carrera";;;
+2;"R2";"LED-5MM";1;"R_PHOTO";;;
+3;"SW1";"SW_PUSH-12mm";1;"Pulsador";;;
+4;"REF**,REF**";"MountingHole_3.2mm_M3";2;"MountingHole_3.2mm_M3";;;
+5;"P1";"JST_PH_S3B-PH-K_03x2.00mm_Angled";1;"CONN_01X03";;;
+6;"R1";"R_0805";1;"10k";;;
+7;"G***";"web";1;"LOGO";;;
+8;"G***";"atom_small";1;"LOGO";;;
